@@ -1,0 +1,37 @@
+// The title component
+'use client'
+import { useEffect , useState } from 'react';
+import '../styles/Title.css'
+
+function Title () {
+    const [visible , setVisible] = useState(false) ;
+   
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setVisible(true) ;
+        }, 3) ; 
+
+        return() => clearTimeout(timer)
+    }, [] )
+
+    return (
+        <div className = 'title_content'>
+            <div className = 'background'> 
+
+                <div className={`paragraphs ${visible ? 'is-visible' : ''}`}>
+                      <h1> BLIN  WADJA  ANDRE </h1>
+                </div>
+                
+                <div className={`paragraphs ${visible ? 'is-visible' : ''}`}>
+                  <p className='title'> Développeur Front-end (React / Next.js) </p>
+                </div>
+                
+                <div className={`paragraphs ${visible ? 'is-visible' : ''}`}>
+                    <h6>Création moderne et responsive pour le web</h6>
+                </div>
+
+              </div> 
+        </div>
+    )
+}
+export default Title 

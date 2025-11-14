@@ -1,0 +1,49 @@
+/* The skills styles */
+.skills_content {
+    margin: 20 px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.skills_content  h3{
+    color: white;
+}
+
+.animation {
+  text-align:center;
+}
+
+.lottie {
+    width: 150px;
+    height: 150px;
+    margin-left: 85px;
+}
+
+@media (min-width: 1224px)  {
+    .skills_content {
+        display : flex; 
+        flex-direction: row;
+        margin-top: 30px;
+        padding: 20px;
+        gap: 20px;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .skills-section {
+        margin-top:90px;
+    }
+    .lottie {
+     width: 90px;
+     height: 90px;
+     position: relative;
+     right: 43px;
+    }
+
+}

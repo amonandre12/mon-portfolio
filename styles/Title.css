@@ -1,0 +1,86 @@
+/* The Title styles  */
+.paragraphs {
+  opacity: 0;
+  transform: translateY(20px); 
+  transition: opacity 1s ease-out, transform 1s ease-out; 
+  color: black;
+}
+
+
+.paragraphs.is-visible {
+  opacity: 1;
+  transform: translateY(0); 
+}
+
+.title_content  p {
+  font-size: 17px ;
+  color:black;
+}
+
+.background {
+  background-image: url('/design.webp') ; 
+  background-size:cover ; 
+  background-position: center; 
+  background-repeat : no-repeat ; 
+  width: 100%; 
+  height:50vh ; 
+  border-radius : 15px ; 
+  padding: 2px;
+  margin: 2px;
+}
+
+.title_content  span {
+    font-size: 12px;
+}
+
+.background h1, .title, h6 {
+  position:relative;
+  top:80px;
+  left:15px;
+}
+
+.title_content  {
+  padding-right: 15px; 
+  padding-left: 7px;
+  margin-bottom:16px;
+  align-items:center ;
+}
+
+
+
+.title_content  h2  {
+  color: black;
+  margin-left: 20px;
+}
+
+@media (min-width: 1224px)  {
+
+.title_content {
+  font-size : 1.2em;
+  text-align: center; 
+  margin-top: 25px; 
+  width:98%;
+}
+
+
+.background h1, .title, h6 {
+  position:relative;
+  top:125px;
+  align-items:center;
+}
+.background {
+   height:60vh ; 
+}
+.title_content  h2  {
+ color: black;
+}
+
+  
+.title_content  h2 , span , .paragraphs {
+  align-items:center;
+}
+
+.title_content  p {
+    font-size: 20px ;
+  }
+}

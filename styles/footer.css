@@ -1,0 +1,22 @@
+/* The footer styles  */
+.contact_group {
+    display : flex;
+    flex-direction : row;
+    gap: 25px;
+    align-items  : center ;
+    justify-content: center;
+    text-align : center;
+}
+
+section {
+    position:relative ; 
+    top : 50px;
+}
+
+footer {
+    text-align: center;
+    background-color: #0070f3;
+    padding-bottom: 90px;
+    border-radius:8px;
+    margin-top:80px;
+}

@@ -1,0 +1,71 @@
+/* The text styles  */
+.para_p , p {
+    color: white ; 
+    font-size :18px;
+    padding:5px ;
+    align-items : center; 
+}
+
+.container_para {
+    display :flex ; 
+    flex-direction: column ; 
+    gap: 10px ;
+    align-items :center ; 
+    justify-content: center ;
+}
+
+.paragraph {
+    margin:1px; 
+    padding:1px;
+    background-color: hsl(225, 23%, 24%) ; 
+    border-radius:8px;
+}
+
+
+.container_para img {
+    text-align : center ; 
+    border-top-right-radius: 60%;
+    border-top-left-radius: 60%;
+    align-items : center ; 
+}
+
+.content_about {
+    margin-bottom: 30px ; 
+    padding:10px; 
+}
+
+.content_about h2 {
+    color : white ; 
+    margin: 20px; 
+    font-size : 30px;
+}
+
+@media (min-width: 1224px) {
+
+    .paragraph  {
+     position :relative ; 
+     top :50px; 
+    }
+
+    
+   .container_para {
+    display :flex ; 
+    flex-direction: row; 
+    gap : 90px;
+    margin:auto 20px; 
+    }
+    
+     .container_para  img {
+        width: 280px;
+        height: 280px ;
+        margin-top: 30px; 
+     }
+    .container_para p {
+        max-width: 660px; 
+        font-size: 17px; 
+    }
+    .about {
+        text-align: center;
+        align-items: center;
+    }
+}
