@@ -59,7 +59,7 @@ export const products = [
         react: "VUE.JS" ,
         next: "Responsive Design",  
         figma: "FIGMA" , 
-        link : "https://amonandre12.github.io/validation/"
+        link : "https://validation-5s9h.vercel.app/"
     } , 
 
     {
