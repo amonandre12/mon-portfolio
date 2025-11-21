@@ -95,7 +95,7 @@ nav {
   display:block;
 }
 
-a {
+.links a {
   position:relative ;
   right:85px;
   font-size: 18px;
