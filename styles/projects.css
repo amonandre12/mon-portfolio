@@ -28,6 +28,10 @@
   color :white ; 
 }
 
+.projects_content h3 {
+  margin: 10px;
+}
+
 .projects_content h2 {
   font-size: 20px; 
 }
@@ -85,7 +89,7 @@ a {
   cursor: pointer;
   font-weight: bold;
   transition: background 0.3s ease;
-  margin:10px;
+  margin:12px;
 }
 
 

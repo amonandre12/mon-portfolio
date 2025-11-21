@@ -30,8 +30,8 @@ function Navigation() {
                      <Image 
                          src = '/menu.png'
                          alt = 'logo dus site'
-                         height = {50}
-                         width = {50}
+                         height = {25}
+                         width = {25}
                         />
                 </div> 
                 
@@ -45,8 +45,8 @@ function Navigation() {
                   <Image 
                     src = '/3917759.png'
                     alt = 'The back button'
-                    width = {30}
-                    height= {30}
+                    width = {20}
+                    height= {20}
                     />
                   </div>
                  <Link href="/" onClick={() => setIsMenuOpen(!isMenuOpen)}>Accueil</Link>
