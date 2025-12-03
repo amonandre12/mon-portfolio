@@ -42,8 +42,8 @@ function FormContact() {
   return (
     <div className="form_section">
       <div className="call_action">
-        <h2>Travaillons Ensemble !</h2>
-        <p>
+        <h2 style = {{color : 'hsl(226, 25%, 17%)'}}>Travaillons Ensemble !</h2>
+        <p style = {{color : 'hsl(226, 25%, 17%)'}}>
           Intéressé par mes projets ou désireux de collaborer sur une
           nouvelle idée ? N'hésitez pas à me contacter via le formulaire
           ci-dessous.

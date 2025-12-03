@@ -37,10 +37,12 @@
 .content_about {
     margin-bottom: 30px ; 
     padding:10px; 
+    background-color: hsl(225, 23%, 24%);
+    padding-bottom: 40px;
 }
 
-.content_about h2 {
-    color :  hsl(243, 96%, 9%); 
+.content_about h2 , p{
+    color : hsl(0, 0%, 93%); 
     margin: 20px; 
     font-size : 30px;
 }

@@ -27,7 +27,7 @@ function Title () {
                 </div>
                 
                 <div className={`paragraphs ${visible ? 'is-visible' : ''}`}>
-                    <h6>Création moderne et responsive pour le web</h6>
+                    <h4 className='creation'>Création moderne et responsive pour le web</h4>
                 </div>
 
               </div> 

@@ -15,6 +15,13 @@
 .title_content  p {
   font-size: 17px ;
   color:black;
+  position: relative;
+  top: 60px;
+}
+
+.creation {
+  position:relative; 
+  top: 40px;
 }
 
 .background {
@@ -29,15 +36,18 @@
   margin: 2px;
 }
 
+
 .title_content  span {
     font-size: 12px;
 }
 
-.background h1, .title, h6 {
+
+.background h1, .title, h4 {
   position:relative;
   top:80px;
   left:7px;
 }
+
 
 .title_content  {
   padding-right: 15px; 
@@ -46,12 +56,6 @@
   align-items:center ;
 }
 
-
-
-.title_content  h2  {
-  color: black;
-  margin-left: 20px;
-}
 
 @media (min-width: 1224px)  {
 
@@ -63,22 +67,15 @@
 }
 
 
-.background h1, .title, h6 {
-  position:relative;
-  top:125px;
-  align-items:center;
-}
 .background {
    height:60vh ; 
 }
+
+
 .title_content  h2  {
  color: black;
 }
 
-  
-.title_content  h2 , span , .paragraphs {
-  align-items:center;
-}
 
 .title_content  p {
     font-size: 20px ;

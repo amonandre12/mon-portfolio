@@ -74,7 +74,7 @@ function ProjectCard () {
                  <Image
                     src={selectedProduct.imagePath}
                     alt={selectedProduct.alt}
-                    width={170}
+                    width={270}
                     height={170}
                 />
 

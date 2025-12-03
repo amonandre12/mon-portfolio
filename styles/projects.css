@@ -5,7 +5,6 @@
     justify-content: center;
     text-align: center;
     gap: 30px;
-    
 }
 
 
@@ -23,11 +22,12 @@
   margin:20px; 
   padding:20px;
   border-radius:10px;
+  background-color: hsl(226, 25%, 17%);
 }
 
 
 .projects_content  h3 , h2{
-  color : hsl(243, 96%, 9%); 
+  color : hsl(200, 60%, 99%); 
 }
 
 .projects_content h3 {
@@ -63,6 +63,7 @@
 .link {
   margin-top: 80px;
 }
+
 
 a {
   text-decoration: none;
@@ -181,7 +182,7 @@ a {
 }
 
 .projects_content  p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 @keyframes fadeln {
