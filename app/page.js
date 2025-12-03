@@ -20,8 +20,10 @@ import Footer from '../components/Footer';
            <ProjectCard/>
           </section>
           
-          
-           <Skills/>
+          <section id="compétences">
+            <Skills/>
+          </section>
+           
 
            <section id="contact">
              <FormContact/>

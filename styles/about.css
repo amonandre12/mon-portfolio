@@ -1,7 +1,7 @@
 /* The text styles  */
 .para_p , p {
     color: #121212; 
-    font-size :18px;
+    font-size :14px;
     padding:5px ;
     align-items : center; 
 }
@@ -34,6 +34,7 @@
     align-items : center ; 
 }
 
+
 .content_about {
     margin-bottom: 30px ; 
     padding:10px; 
@@ -41,10 +42,11 @@
     padding-bottom: 40px;
 }
 
+
 .content_about h2 , p{
     color : hsl(0, 0%, 93%); 
     margin: 20px; 
-    font-size : 30px;
+    font-size : 20px;
 }
 
 
