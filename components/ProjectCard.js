@@ -43,7 +43,7 @@ function ProjectCard () {
          src = {product.imagePath}
          alt = {product.alt}
          height = {190}
-         width = {190}
+         width = {240}
          /> 
         </div>
 

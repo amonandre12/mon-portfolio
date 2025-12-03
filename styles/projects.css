@@ -5,10 +5,11 @@
     justify-content: center;
     text-align: center;
     gap: 30px;
+    
 }
 
+
 .projects {
-  color : white;
   text-align: center;
   position: relative;
   top:47px;
@@ -24,8 +25,9 @@
   border-radius:10px;
 }
 
+
 .projects_content  h3 , h2{
-  color :white ; 
+  color : hsl(243, 96%, 9%); 
 }
 
 .projects_content h3 {
@@ -42,6 +44,7 @@
     object-fit: cover;
     overflow: hidden;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .btn_project {
@@ -215,7 +218,7 @@ top: 120px;
 
 .projects1 img {
  height: 240px ; 
- width: 240px ; 
+ width: 310px ; 
  object-fit: cover;
 }
 

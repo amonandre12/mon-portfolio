@@ -23,7 +23,7 @@ const animations = [
 function Skills() {
   return (
     <section className = 'skills-section'>
-      <h1 style={{color: 'white' , textAlign:'center'}}>Mes compétences</h1>
+      <h1 style={{color: 'hsl(243, 96%, 9%)' , textAlign:'center'}}>Mes compétences</h1>
         <div  className="skills_content">
            {animations.map((anim) => (
           <div key={anim.id} className='animation'>

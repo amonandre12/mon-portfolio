@@ -1,6 +1,6 @@
 /* The text styles  */
 .para_p , p {
-    color: white ; 
+    color: #121212; 
     font-size :18px;
     padding:5px ;
     align-items : center; 
@@ -14,10 +14,15 @@
     justify-content: center ;
 }
 
+.about {
+    align-content: center;
+    text-align: center;
+}
+
+
 .paragraph {
     margin:1px; 
     padding:1px;
-    background-color: hsl(225, 23%, 24%) ; 
     border-radius:8px;
 }
 
@@ -35,19 +40,14 @@
 }
 
 .content_about h2 {
-    color : white ; 
+    color :  hsl(243, 96%, 9%); 
     margin: 20px; 
     font-size : 30px;
 }
 
+
 @media (min-width: 1224px) {
 
-    .paragraph  {
-     position :relative ; 
-     top :50px; 
-    }
-
-    
    .container_para {
     display :flex ; 
     flex-direction: row; 
@@ -56,16 +56,21 @@
     }
     
      .container_para  img {
-        width: 280px;
-        height: 280px ;
+        width: 230px;
+        height: 240px ;
         margin-top: 30px; 
      }
+
+
     .container_para p {
         max-width: 660px; 
         font-size: 17px; 
     }
+
+
     .about {
         text-align: center;
         align-items: center;
+
     }
 }

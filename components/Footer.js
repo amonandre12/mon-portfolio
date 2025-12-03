@@ -49,8 +49,7 @@ function Footer() {
              </div>
             
             </div>
-
-                <p>&copy; {new Date().getFullYear()} Blin Wadja André tous droits réservés.</p>
+                <p style = {{color : 'white'}}>&copy; {new Date().getFullYear()}  Blin Wadja André tous droits réservés.</p>
             </section>
         </footer>
     )

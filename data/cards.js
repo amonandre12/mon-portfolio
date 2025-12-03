@@ -16,6 +16,20 @@ export const products = [
 
     {
         id : 2, 
+        imagePath:'/printit.webp' , 
+        alt : 'Une image du site 1', 
+        title : "Imprimez-le", 
+        description : "Intégration complète de la maquette figma en code HTML5 et CSS3 . J'ai rendu aussi le site responsive (Mobile-first) et  dynamique en ajoutant un carrousel interactif avec JavaScript.",
+        react: "HTML5" , 
+        next: "CSS3" , 
+        figma: "JavaScript" , 
+        link: "https://amonandre12.github.io/print-project/"
+
+    } ,
+
+
+    {
+        id : 3, 
         imagePath:'/img1.png' , 
         alt : 'Une image du site 2', 
         title : "Un formulaire de contact" ,
@@ -27,7 +41,7 @@ export const products = [
     }, 
 
     {
-        id : 3, 
+        id : 4, 
         imagePath:'/sandwich.jpg' , 
         alt : 'Une image du site 3', 
         title : "Site Vitrine pour Restaurant" ,
@@ -39,7 +53,7 @@ export const products = [
     }, 
 
     {
-        id : 4, 
+        id : 5, 
         imagePath:'/adham-dannaway-design-portfolio.jpg' , 
         alt : 'Une image du site 3', 
         title : "Site Vitrine pour Designer" ,
@@ -51,7 +65,7 @@ export const products = [
     } , 
 
     {
-        id : 5, 
+        id : 6, 
         imagePath:'/form.png' , 
         alt : 'Une image du site 3', 
         title : "Formulaire de Validation Vue.js",
@@ -63,7 +77,7 @@ export const products = [
     } , 
 
     {
-        id : 6, 
+        id : 7, 
         imagePath:'/img3.png', 
         alt : 'Une image du site 3', 
         title : "Projet Académie Française",
