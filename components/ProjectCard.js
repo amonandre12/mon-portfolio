@@ -23,8 +23,8 @@ function ProjectCard () {
      // Fonction pour fermer la modale avec animation (important)
     const closeModal = () => {
         setIsModalOpen(false);
-        // On attend la fin de l'animation CSS avant de supprimer le produit sélectionné
-        setTimeout(() => setSelectedProductId(null), 300); // 300ms doit correspondre à la durée de l'animation
+    
+        setTimeout(() => setSelectedProductId(null), 300);
     };
 
     return (
