@@ -3,16 +3,16 @@
 export const products = [
     {
         id : 1 , 
-        imagePath:'/img2.png' , 
-        alt : 'Une image du site 1', 
-        title : "Un gestionnaire d'extensions " , 
-        description : "Ce projet est un gestionnaire d’extensions permettant de sélectionner les extensions actives, inactives ou toutes en même temps.  Il m’a permis de renforcer ma compréhension de la gestion d’état et de la transmission de props en React.  J’ai reproduit fidèlement la maquette fournie en accordant une attention particulière aux détails du design.",
-        react: "REACT" , 
-        next: "NEXT" , 
-        figma: "FIGMA" , 
-        link : "https://extensions-app-phi.vercel.app/"
+        imagePath:'/kasa.webp' , 
+        alt : 'The Kasa application', 
+        title : "Kasa application" , 
+        description : "Ce projet est une application web front-end développée en HTML, CSS et JavaScript. Il a été réalisé pour renforcer mes compétences en intégration web et en logique JavaScript.",
+        react: "HTML5" , 
+        next: "CSS3" , 
+        figma: "JavaScript" , 
+        link : "https://amonandre12.github.io/kasa-app/"
 
-    } ,
+    },
 
     {
         id : 2, 
@@ -27,9 +27,21 @@ export const products = [
 
     } ,
 
+    {
+        id : 3 , 
+        imagePath:'/img2.png' , 
+        alt : 'Une image du site 1', 
+        title : "Un gestionnaire d'extensions " , 
+        description : "Ce projet est un gestionnaire d’extensions permettant de sélectionner les extensions actives, inactives ou toutes en même temps.  Il m’a permis de renforcer ma compréhension de la gestion d’état et de la transmission de props en React.  J’ai reproduit fidèlement la maquette fournie en accordant une attention particulière aux détails du design.",
+        react: "REACT" , 
+        next: "NEXT" , 
+        figma: "FIGMA" , 
+        link : "https://extensions-app-phi.vercel.app/"
+    },
+
 
     {
-        id : 3, 
+        id : 4, 
         imagePath:'/img1.png' , 
         alt : 'Une image du site 2', 
         title : "Un formulaire de contact" ,
@@ -41,7 +53,7 @@ export const products = [
     }, 
 
     {
-        id : 4, 
+        id : 5, 
         imagePath:'/sandwich.jpg' , 
         alt : 'Une image du site 3', 
         title : "Site Vitrine pour Restaurant" ,
@@ -53,7 +65,7 @@ export const products = [
     }, 
 
     {
-        id : 5, 
+        id : 6, 
         imagePath:'/adham-dannaway-design-portfolio.jpg' , 
         alt : 'Une image du site 3', 
         title : "Site Vitrine pour Designer" ,
@@ -65,7 +77,7 @@ export const products = [
     } , 
 
     {
-        id : 6, 
+        id : 7, 
         imagePath:'/form.png' , 
         alt : 'Une image du site 3', 
         title : "Formulaire de Validation Vue.js",
@@ -77,7 +89,7 @@ export const products = [
     } , 
 
     {
-        id : 7, 
+        id : 8, 
         imagePath:'/img3.png', 
         alt : 'Une image du site 3', 
         title : "Projet Académie Française",

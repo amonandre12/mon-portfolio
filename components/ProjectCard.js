@@ -1,10 +1,10 @@
-// The projects card 
 'use client'
 import {useState , useEffect} from 'react' ;
 import {products} from '../data/cards';
 import Image from 'next/image' ;
 import Link from 'next/link' ;
 import  '../styles/projects.css'; 
+ 
 
 function ProjectCard () {
      // État pour stocker l'ID du produit sélectionné pour la modale
@@ -26,7 +26,7 @@ function ProjectCard () {
     
         setTimeout(() => setSelectedProductId(null), 300);
     };
-
+    
     return (
     <>
     <h1 className='projects'> Mes Réalisations</h1>
@@ -53,7 +53,7 @@ function ProjectCard () {
              {/* Bouton qui ouvre la modale en définissant l'ID sélectionné */}
             
             <button  className = 'btn_learn' onClick={() => openModal(product.id)}>
-              Vois les details
+             Voir les détails
             </button>
         </div>
         
