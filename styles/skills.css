@@ -1,6 +1,6 @@
 /* The skills styles */
 .skills_content {
-    margin: 20 px;
+    margin: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -14,17 +14,26 @@
   margin-top:70px;
 }
 
-.skills_content  h3{
-    color:  hsl(243, 96%, 9%);
+.skills_content h3{
+    color: hsl(243, 96%, 9%);
+    font-size: 1.2rem;
 }
+
+
+.skills{
+    color: #3B56C9 ;
+    font-size: 1.3rem;
+    text-align:center ; 
+}
+
 
 .animation {
   text-align:center;
 }
 
 .lottie {
-    width: 150px;
-    height: 150px;
+    width: 90px;
+    height: 90px;
     margin-left: 85px;
 }
 
@@ -48,6 +57,10 @@
      height: 90px;
      position: relative;
      right: 43px;
+    }
+
+    .skills {
+        font-size:2rem ; 
     }
 
 }

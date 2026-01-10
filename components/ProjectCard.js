@@ -30,13 +30,11 @@ function ProjectCard () {
     return (
     <>
     <h1 className='projects'> Mes Réalisations</h1>
-
-     <section className = 'projects_content'>
-      
+    <section className = 'projects_content'>
         <div className = "projects1">
 
          {products.map((product) => (
-        <div key = {product.id} >
+        <div key = {product.id} className = "myProjects">
         
         <div>
          <Image

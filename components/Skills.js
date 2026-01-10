@@ -23,8 +23,8 @@ const animations = [
 function Skills() {
   return (
     <section className = 'skills-section'>
-      <h1 style={{color: 'hsl(243, 96%, 9%)' , textAlign:'center'}}>Mes compétences</h1>
-        <div  className="skills_content">
+      <h1 className = 'skills'>Mes compétences</h1>
+        <div className="skills_content">
            {animations.map((anim) => (
           <div key={anim.id} className='animation'>
             <Lottie animationData={anim.src} loop = {true}
@@ -32,7 +32,7 @@ function Skills() {
             <h3>{anim.title}</h3>
           </div>
         ))}
-        </div>
+        </div> 
     </section>
   );
 }

@@ -1,8 +1,3 @@
-body {
-    /* background-color:  hsl(243, 96%, 9%); */
-    background-color: #E3F2FD;
-}
-
 html {
   /* Active le défilement fluide (smooth scroll) pour toute la page */
   scroll-behavior: smooth;

@@ -1,17 +1,17 @@
 /* The projects styles */
 .projects1 {
-    display : flex ;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    gap: 30px;
+  display: grid;
+  grid-template-columns: 1fr; 
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
 }
 
 
 .projects {
   text-align: center;
-  position: relative;
-  top:47px;
+  font-size: 1.3rem; 
+  color:  #3B56C9;
 }
 
 .projects1 img:hover {
@@ -19,10 +19,9 @@
   }
 
 .projects_content {
-  margin:20px; 
-  padding:20px;
+  margin-top:20px; 
   border-radius:10px;
-  background-color: hsl(226, 25%, 17%);
+  background-color: #f3f4f6;
 }
 
 
@@ -153,18 +152,20 @@ a {
   text-align: center;
   animation : fadeln 0.3s ease ;
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  transform: scale(0.8); /* Plus petit par défaut */
+  transform: scale(0.8); 
   opacity: 0; 
 }
 
+
 .modal-overlay.is-open {
   opacity: 1;
-  pointer-events: auto; /* Permet les clics lorsque ouvert */
+  pointer-events: auto; 
 }
 
+
 .modal-content.is-open {
-  transform: scale(1); /* Taille normale */
-  opacity: 1; /* Visible */
+  transform: scale(1); 
+  opacity: 1; 
 }
 
 .modal-overlay.is-closed {
@@ -173,7 +174,7 @@ a {
 
 .modal-content.is-closed {
   transform: scale(0.8); 
-  opacity: 0; /* Disparaît */
+  opacity: 0; 
 }
 
 .modal-content button {
@@ -190,7 +191,14 @@ a {
   to   {opacity: 1 ; transform: scale(1) ;}
 }
 
+
+.myProjects {
+  margin-top: 50px; 
+}
+
+
 @media (min-width: 1224px)  {
+
   .projects1 {
   display : grid;
   grid-template-columns: repeat(3, 1fr);
@@ -203,17 +211,16 @@ a {
   width : 400px;
 } 
 
+.myProjects {
+  margin-top:50px; 
+}
+
 .btn_back {
   left:400px;
 }
 
-.projects {
-position: relative;
-top: 120px;
-}
-
 .projects_content  {
- margin-top: 110px;
+ margin-top: 80px;
 
 }
 
@@ -225,5 +232,11 @@ top: 120px;
 
 .projects1 img:hover {
 transform: scale(1.05);
+}
+
+.projects {
+  position:relative;
+  top:30px;
+  font-size: 1.80rem ; 
 }
 }

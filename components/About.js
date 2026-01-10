@@ -5,21 +5,18 @@ import '../styles/about.css'
 function About() {
 
     return (
-            <section className = 'content_about'>
-          
+        <section className = 'content_about'>
             <div className= "paragraph">
-                
-             <h2 className='about'>A  propos de moi </h2> 
-
-       <div className = 'container_para'>
-           <div>
-            <Image 
-             src = '/logo.jpg'
-             alt = 'logo dus site'
-             height = {120}
-             width = {120}
-            />
-          </div>
+                <h2 className='about'>A  propos de moi </h2>
+                <div className = 'container_para'>
+                    <div>
+                        <Image
+                        src = '/logo.jpg'
+                        alt = 'logo du site'
+                        height = {120}
+                        width = {120}
+                        />
+                    </div>
 
             <div className = 'para_p'>
             

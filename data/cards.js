@@ -28,7 +28,20 @@ export const products = [
     } ,
 
     {
-        id : 3 , 
+        id : 3, 
+        imagePath:'/cic.jpg' , 
+        alt : 'Image site CIC', 
+        title : "Services Immobilié ", 
+        description : "Intégration complète de la maquette figma en code HTML5 et CSS3 . Ce projet m'a permis de manipuler le DOM avec du JavaScript tout en rendant le site dynamique et profesionnel .",
+        react: "HTML5" , 
+        next: "CSS3" , 
+        figma: "JavaScript" , 
+        link: "https://immobilier-app-kappa.vercel.app/"
+
+    } ,
+
+    {
+        id : 4, 
         imagePath:'/img2.png' , 
         alt : 'Une image du site 1', 
         title : "Un gestionnaire d'extensions " , 
@@ -41,7 +54,7 @@ export const products = [
 
 
     {
-        id : 4, 
+        id : 5, 
         imagePath:'/img1.png' , 
         alt : 'Une image du site 2', 
         title : "Un formulaire de contact" ,
@@ -53,7 +66,7 @@ export const products = [
     }, 
 
     {
-        id : 5, 
+        id : 6, 
         imagePath:'/sandwich.jpg' , 
         alt : 'Une image du site 3', 
         title : "Site Vitrine pour Restaurant" ,
@@ -65,7 +78,7 @@ export const products = [
     }, 
 
     {
-        id : 6, 
+        id : 7, 
         imagePath:'/adham-dannaway-design-portfolio.jpg' , 
         alt : 'Une image du site 3', 
         title : "Site Vitrine pour Designer" ,
@@ -77,7 +90,7 @@ export const products = [
     } , 
 
     {
-        id : 7, 
+        id : 8, 
         imagePath:'/form.png' , 
         alt : 'Une image du site 3', 
         title : "Formulaire de Validation Vue.js",
@@ -89,7 +102,7 @@ export const products = [
     } , 
 
     {
-        id : 8, 
+        id : 9, 
         imagePath:'/img3.png', 
         alt : 'Une image du site 3', 
         title : "Projet Académie Française",

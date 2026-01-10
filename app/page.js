@@ -5,6 +5,7 @@ import ProjectCard from '../components/ProjectCard';
 import Skills from '../components/Skills' ;
 import FormContact from '../components/FormContact' ;
 import Footer from '../components/Footer';
+
  function Home() {
   return (
     <div>

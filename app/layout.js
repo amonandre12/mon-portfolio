@@ -1,4 +1,5 @@
 import "./global.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import Nav from '../components/Nav'
 
 export default function RootLayout({ children }) {
