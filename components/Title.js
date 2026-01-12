@@ -23,13 +23,12 @@ function Title () {
                 </div>
                 
                 <div className={`paragraphs ${visible ? 'is-visible' : ''}`}>
-                  <p className='title'> Développeur Front-end (React / Next.js) </p>
+                  <p className='title'> Développeur Web Front-End </p>
                 </div>
                 
                 <div className={`paragraphs ${visible ? 'is-visible' : ''}`}>
                     <h4 className='creation'>Création moderne et responsive pour le web</h4>
                 </div>
-
               </div> 
         </div>
     )

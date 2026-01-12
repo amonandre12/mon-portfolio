@@ -107,6 +107,7 @@ function FormContact() {
           <label htmlFor="message">Message</label>
           <textarea
             name="message" 
+            required
             placeholder="Tapez votre message"
             
           ></textarea>
