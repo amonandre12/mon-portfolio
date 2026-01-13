@@ -22,11 +22,11 @@
 }
 
 .adressList p {
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .adressList i {
-    color: #e0b300;
+    color:  #FFC107;
 }
 
 
@@ -41,7 +41,7 @@
     border: 1px solid #E2EBF0;
     padding: 10px;
     border-radius: 10px;
-    width:310px;
+    width:315px;
     margin-left: 10px;
 }
 
@@ -59,7 +59,7 @@
 
 
 .contact_form {
-    width: 280px;
+    width: 285px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
