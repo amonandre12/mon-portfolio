@@ -29,7 +29,7 @@ function Skills() {
           <div key={anim.id} className='animation'>
             <Lottie animationData={anim.src} loop = {true}
             className='lottie' /> <br/>
-            <h3>{anim.title}</h3>
+            <h3>{anim.title}</h3> 
           </div>
         ))}
         </div> 

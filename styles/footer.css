@@ -35,3 +35,22 @@ footer {
     padding: 4rem 0 2rem;
     margin-top: 50px;
 }
+
+
+.trait {
+    width: 320px;
+    height: 2px;
+    background: #000;
+    margin: 8px auto ;
+    text-align: center;
+}
+
+
+@media screen and (min-width : 768px)  {
+    
+.trait {
+    width: 1120px;
+}
+
+
+}

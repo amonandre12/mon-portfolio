@@ -53,24 +53,24 @@ function FormContact() {
 
       
         {/* Liez la référence et la nouvelle fonction handleSubmit à l'action */}
-        <div class="form-container">
+        <div className ="form-container">
 
-        <div class="adress">
-          <div class="adress_content">
+        <div className ="adress">
+          <div className ="adress_content">
             <h2>Mes Coordonnées</h2>
-            <div class="adressList">
+            <div className ="adressList">
               <div>
-                <h3><i class="fas fa-map-marker-alt"></i> Adresse:</h3>
+                <h3><i className ="fas fa-map-marker-alt"></i> Adresse:</h3>
                 <p>Yopougon Ile Boulay, Abidjan</p>
               </div>
               
               <div>
-                <h3><i class="fa-solid fa-phone"></i>Téléphone:</h3>
+                <h3><i className ="fa-solid fa-phone"></i>Téléphone:</h3>
                 <p>+225 01 53 54 69 31</p>
               </div>
               
               <div>
-                <h3><i class="fas fa-envelope"></i> Email:</h3>
+                <h3><i className ="fas fa-envelope"></i> Email:</h3>
                 <p>amonblinwadjaandre@gmail.com</p>
               </div>
             </div>

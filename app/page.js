@@ -27,7 +27,7 @@ import Footer from '../components/Footer';
            
 
            <section id="contact">
-             <FormContact/>
+             <FormContact/> 
            </section>
           
           

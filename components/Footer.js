@@ -25,7 +25,9 @@ function Footer() {
                <i className ="fab fa-linkedin-in"></i>
               </Link>
             </div>
-
+            
+            <div className ="trait"></div>
+            
             <div>
                <p style = {{color : 'white' , fontSize : '14px'}}>&copy; {new Date().getFullYear()}  Blin Wadja André tous droits réservés.</p>
             </div>
